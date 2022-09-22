@@ -1,3 +1,25 @@
+Prerequisite things that need to be checked before mapping or navigating are as follows:
+
+Hardware: 
+- Body, make sure there are no physical defects in the robot body. 
+- Power supply, make sure the voltage on the power supply matches the specifications. 
+- Actuator, make sure the motor and other drives can function properly.
+- Sensor, make sure the lidar sensor and others can be read accurately. 
+- Control system, make sure the robot can be controlled and the failsafe system is active. 
+
+Software: 
+- Check the network connection are stable. 
+- Check ROS running properly.
+- Check the service that has been created running properly. 
+- Check connection to database. 
+- Check connection to master. 
+- Check the error code.
+
+System:
+- Make sure the robot already integrated to the Main System.
+
+
+
 #Documentation:
 
 #For the first we need to pull ros docker image.
